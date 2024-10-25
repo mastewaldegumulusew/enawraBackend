@@ -81,7 +81,7 @@ class Connection {
     }
 
     private listen() {
-        this.http.listen(process.env.PORT, () => {
+        this.http.listen(process.env.PORT || 3000, () => {
             console.log("Connected to db & server started on port", process.env.PORT);
         });
     }

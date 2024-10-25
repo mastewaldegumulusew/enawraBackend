@@ -5,8 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "dev": "node dist/server",
-    "build":"npm install",
-    "start":"nodemon server.ts"
+    "build":"tsc",
+    "start":"node dist/server.js"
   },
   "keywords": [],
   "author": "",
