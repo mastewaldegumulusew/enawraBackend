@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "node dist/server",
-    "build":"tsc",
+        "build":"npm install",
     "start":"node dist/server.js"
   },
   "keywords": [],
