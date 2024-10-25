@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node dist/server",
     "build":"npm install",
-    "start":"nodemon server.ts"
+    "start":"node server.ts"
   },
   "keywords": [],
   "author": "",
